@@ -1,0 +1,29 @@
+{
+  "name": "sound-looper-with-stereo-pan",
+  "version": "1.0.0",
+  "description": "messing around with fun stuff and javascript",
+  "main": "itsgonnarain.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RusselViola/sound-looper-with-stereo-pan.git"
+  },
+  "author": "Russel Viola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RusselViola/sound-looper-with-stereo-pan/issues"
+  },
+  "homepage": "https://github.com/RusselViola/sound-looper-with-stereo-pan#readme",
+  "dependencies": {
+    "lodash": "^4.16.6"
+  },
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0"
+  }
+}
